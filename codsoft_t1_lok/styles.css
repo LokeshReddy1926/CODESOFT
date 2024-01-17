@@ -1,0 +1,122 @@
+body {
+  font-family: "Arial", serif;
+  margin: 0;
+  padding: 0;
+}
+
+#home .container {
+  font-size: larger;
+}
+
+nav {
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff0000;
+}
+
+.section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+  transition: background 0.3s;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1:hover,
+h2:hover,
+h3:hover {
+  background: linear-gradient(90deg, #ff0000, #333);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Courier New", Courier, monospace;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+#about img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 50%;
+}
+
+#skills {
+  background-color: #f2f2f2;
+  padding: 40px 0;
+}
+
+#skills h2 {
+  margin-bottom: 20px;
+}
+
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+#skills li {
+  background-color: #d4000098;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.project img {
+  max-width: 70%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
