@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Ticket Planner</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="heading">Ticket Planner</div>
+      <span class="sideMenuButton" onclick="openNavbar()"> ☰ </span>
+
+      <div class="navbar">
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Events">Events</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+		responsive website -->
+    <div class="sideNavigationBar" id="sideNavigationBar">
+      <a href="#" class="closeButton" onclick="closeNavbar()"> </a>
+      <a href="#">Home</a>
+      <a href="#">Events</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+      <div class="side1">
+        <h1>Find and Book Exciting Events!</h1>
+        <button>
+          <a href="#Events">Explore Events</a>
+        </button>
+      </div>
+      <div class="side2">
+        <img src="logo-img.png" alt="Event Image" width="500" />
+      </div>
+    </div>
+
+    <section class="about" id="Events">
+      <div class="content">
+        <div class="title">
+          <span>Upcoming Events</span>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">
+              <a href="#" target="_blank"> Music Concert </a>
+            </div>
+            <p>
+              Join us for a night filled with incredible music and unforgettable
+              performances!
+            </p>
+          </div>
+          <div class="box">
+            <div class="topic">
+              <a href="#" target="_blank"> Sports Event </a>
+            </div>
+            <p>
+              Cheer for your favorite team in an action-packed sports event!
+            </p>
+          </div>
+          <div class="box">
+            <div class="topic">
+              <a href="#" target="_blank"> Theater Show </a>
+            </div>
+            <p>
+              Experience the magic of live theater with our captivating shows.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="Contact">
+      <div class="content">
+        <div class="title"><span>Contact Us</span></div>
+        <div class="contactMenu">
+          <div class="input1">
+            <div class="label1">Your Name</div>
+            <div class="input2">
+              <input type="text" placeholder="Enter your Name here" />
+            </div>
+            <div class="label1">
+              <label>Your Email</label>
+            </div>
+            <div class="input2">
+              <input type="text" placeholder="Enter your Email here" />
+            </div>
+            <div class="label1">
+              <label>Your Message</label>
+            </div>
+            <div class="input2">
+              <textarea placeholder="Enter your message here"></textarea>
+            </div>
+            <div class="button">
+              <button>Send Message</button>
+            </div>
+          </div>
+          <div class="input3">
+            <div class="rightside1">
+              <div class="title1">
+                <span> Location </span>
+              </div>
+              <div class="content1">
+                Ticket Planner, Gandhi nagar, 2nd Cross, State, 12345
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+      <div class="footer">
+        <span>
+          Created By
+          <a href="index.html" target="_blank"> Ticket Planner </a>
+        </span>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
